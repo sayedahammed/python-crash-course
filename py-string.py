@@ -16,3 +16,20 @@ print(full_name)
 
 print("Hello, " + full_name.title() + "!")
 
+# new tab
+print("\t\tPython")
+
+# new line
+print("Languages:\nPython\nC\nJavaScript")
+
+print("Languages:\n\tPython\n\tC\n\tJavaScript")
+
+name = "Sayed Ahammed"
+age = 27
+birth_date = "1995-02-20"
+# type conversion (int to string)
+print("Hello, " + name + ". Your birth date is " + birth_date + ". And your age " + str(age) + ".")
+
+# strip
+favorite_language = "python "
+print(favorite_language.rstrip())
